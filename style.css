@@ -1,0 +1,33 @@
+.drag-drop-file-container {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    width: 187px;
+    margin: 100px auto;
+    padding: 40px;
+}
+
+.drag-drop-file-container.highlight {
+    border-color: orange;
+}
+
+.drag-drop-file-label {
+    display: inline-block;
+    padding: 10px;
+    background: #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0px;
+}
+
+.drag-drop-file-label:hover {
+    background: #ddd;
+}
+
+.drag-drop-file-input {
+    display: none;
+}
+
+.drag-drop-label {
+    font-size: 10px;
+}
